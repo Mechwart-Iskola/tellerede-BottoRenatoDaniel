@@ -1,6 +1,9 @@
 body {
   background-size: cover;
   font-weight: 500;
+  background-image: url(physics_icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 p {
@@ -27,8 +30,34 @@ h1 {
 table {
   width: 50%;
   margin: auto;
+  border-bottom: 1px solid gray;
+  margin-left: 20px;
 }
 
 ul {
   list-style-image: url('physics_icon.png');
+}
+
+span{
+  font-weight: 800;
+}
+span:hover{
+  color: red;
+}
+
+th{
+  background-color: gray;
+  color: white;
+}
+
+th, td{
+  text-align: center;
+}
+
+a, a:hover, a:visited{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
 }
