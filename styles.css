@@ -54,6 +54,11 @@ th, td{
   text-align: center;
 }
 
+td{
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
 a, a:hover, a:visited{
   text-decoration: none;
 }
